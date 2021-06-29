@@ -1,5 +1,0 @@
-env_variables:
-  GOOGLE_MAPS_API_KEY: AIzaSyA_mLNeCZDKfCiXWKk3ND-5kBu3nCAgmqM
-
-includes:
-  - /path/to/your/env_variables.yaml
