@@ -8,14 +8,14 @@ body{
     align-items: center;
     justify-content: center;
     background-color: lightgray;
-    font-family: dosis;
+    font-family: 'Cardo', sans-serif;
 }
 .button{
     border: none;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 20px;
+    font-size: 24px;
     cursor: pointer;
 }
 
@@ -24,7 +24,7 @@ body{
     width: 100%;
     position: fixed;
     background-size: cover;
-    font-family: dosis;
+    font-family: 'Oswald', serif;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
 }
@@ -46,13 +46,13 @@ body{
 }
 
 .navbar .logo a{
-    color: black;
-    font-size: 40px;
+    color: white;
+    font-size: 48px;
     font-weight: 600;
 }
 
 .navbar .menu li a{
-    color: black;
+    color: white;
     font-size: 26px;
     font-weight: 500;
     margin-left: 25px;
@@ -65,42 +65,45 @@ li a:hover{
 .home{
     display: flex;
     text-align: justify;
-    color: black;
+    color: white;
     font-family: cormorant garamont;
     margin-top: 10px;
-    font-family: dosis;
+    font-family: 'Cardo', sans-serif;
 
 }
 .home .content .max-width{
     margin: auto 0 auto 40px;
     align-items: center;
-    font-family: dosis;
+    font-family: 'Cardo', serif;
 }
 
 .home .content .T1{
-    font-size: 22px;
-    font-family: dosis;
+    font-size: 26px;
+    color: white;
+    font-family: 'Cardo', serif;
     font-style: bold;
 }
 img{    
-    border-radius: 40px;
+    border-radius: 30px;
     align-items: center;
 }
 
 .projects{
-    font-size: 22px;
-    font-family: dosis;
+    font-size: 26px;
+    font-family: 'Cardo', serif;
+    color: white;
 }
 
 .gallery{
-
-    font-size: 20px;
-    font-family: dosis;
+    font-size: 26px;
+    font-family: 'Cardo', serif;
+    color: white;
 }
 
 .contact{
-    font-size: 20px;
-    font-family: dosis;
+    font-size: 26px;
+    font-family: 'Cardo', serif;
+    color: white;
 }
 
 /* SLIDESHOW SECTION */
@@ -111,9 +114,10 @@ img{
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  font-size: 22px;
-  font-family: dosis;
+  font-size: 26px;
+  font-family: 'Cardo', serif;
   align-items: center;
+  color: white;
 }
 
 /* Hide the images by default */
@@ -198,25 +202,40 @@ h3{
     margin: center;
     text-align: justify;
     text-justify: inter-word;
+    color: white;
 }
-.button1{
+.button{
     background-color: lightgreen;
 }
 
 /* INTERESTING FACTS SECTION */
 .fact .fact-container{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Cardo', serif;
+    color: white;
 }
 .fact h3{
     margin-top: auto;
     margin: center;
     text-align: center;
 }
-.fact .button2{
+.fact .button{
     background-color: lightgreen;
 }
-.fact .button3{
+.fact .button{
     background-color: lightgreen;
+}
+
+/* Map section of website */
+#map{
+    border: thin solid white;
+    height: 500px;
+    width: 500px;
+}
+.lib h3{
+    margin-top: auto;
+    margin: center;
+    text-align: center;
+    color: white;
 }

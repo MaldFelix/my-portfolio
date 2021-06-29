@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <title>Félix Maldonado Torres Portfolio</title>
     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoqkSB52CgmFXSi7iSVWIBdLnlFI8tcPg"></script>
     <script src="script2.js"></script>
     <script src="script3.js"></script>
+    <script src="script4.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
 
   </head>
 
-  <body>
-      <div style="background-image: url('Images/Picture5.jpeg');">
+  <body onload="createMap();">
+      <div style="background-image: url('Images/dark\ gray_wall.jpg');">
         <div class="container" style="max-width: 1000;">
 
         <!-- Navigation panel part in website-->
@@ -50,24 +53,21 @@
                             In the freetime I usually love to workout and to play videogames on my PC. As shown below these are some of my favorite things:
                         </p>
 
-                        <img src="Images/basketball.jpg" height="150" width="300" style="margin-top: 5px;" alt="Basketball">
-                        <a href="https://www.nba.com/">Favorite Sport</a>
-                        <br>
+                        <a href="https://www.nba.com/">
+                        <img alt="Basketball" src="Images/basketball.jpg" height="150" width="300" style="margin-top: 5px;" ></a>
                         
-                        <img src="Images/naruto.jpg" height="150" width="300" style="margin-top: 5px;" alt="Naruto">
-                        <a href="https://www.viz.com/naruto">Favorite anime series</a>
-                        <br>
+                        <a href="https://www.viz.com/naruto">
+                        <img alt="Naruto" src="Images/naruto.jpg" height="150" width="300" style="margin-top: 5px;" ></a>
                         
-                        <img src="Images/lasagna.jpg" height="150" width="300" style="margin-top: 5px;" alt="Lasagna">
-                        <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/">Favorite food</a>
+                        <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/">
+                        <img alt="Lasagna" src="Images/lasagna.jpg" height="150" width="300" style="margin-top: 5px;" ></a>
                         <br>
                         <hr>
                     </center>
                 </div>
             </div>
         </div>
-        <hr>
-
+        
         <!-- Projects Section in website -->
         <section class="projects" id="projects">
         <div class="projects" id="projects">
@@ -102,8 +102,7 @@
                         <h3>GALLERY SECTION</h3>
                         <a href="gallery.html" class>
                             <img src="Images/gallery.png" height="200" width="300" alt="GALLERY">
-                        </a>
-
+                        </a> <br>
                     </center>
                 </div>
             </div>
@@ -124,6 +123,16 @@
         <p id="date-container"></p>
         </center> 
         </div>
+        
+        
+        <!-- Map library section of the website -->
+        <div class="lib" id="lib">
+                <center>
+                <div id="map"></div>
+                <p>This section shows one of my favorite restaurants!</p>
+            </center>
+            <br>
+        </div>
 
         <!-- Contact me section in website -->
         <section class="contact" id="contact">
@@ -134,15 +143,15 @@
                     <center>
                         <h3>CONTACT ME</h3>
                         <a href="mailto:felixjmt@gmail.com">
-                            <img src="Images/Mail.png" height="100" width="100" alt="Mail">
+                            <img alt="Mail" src="Images/Mail.png" height="100" width="100" >
                         </a>
 
                         <a href="https://www.linkedin.com/in/f%C3%A9lix-j-maldonado/">
-                            <img src="Images/LINKEDIN.png" height="95" width="100" alt="LinkedIn">
+                            <img alt="LinkedIn" src="Images/LINKEDIN.png" height="95" width="100" >
                         </a>
 
                         <a href="https://github.com/MaldFelix">
-                            <img src="Images/GITHUB.png" height="100" width="100" alt="GitHub">
+                            <img alt="GitHub" src="Images/GITHUB.png" height="100" width="100" >
                         </a>
                     </center>
                 </div>
