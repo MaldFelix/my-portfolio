@@ -9,10 +9,6 @@ import org.eclipse.jetty.webapp.Configuration;
 import org.eclipse.jetty.webapp.WebAppContext;
 import org.eclipse.jetty.webapp.WebInfConfiguration;
 
-/**
- * Starts up the server, including a DefaultServlet that handles static files, and any servlet
- * classes annotated with the @WebServlet annotation.
- */
 public class ServerMain {
 
   public static void main(String[] args) throws Exception {

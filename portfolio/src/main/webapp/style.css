@@ -1,9 +1,241 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+/* CSS CODE FOR PERSONAL PORTFOLIO */
+/* BODY SECTION STYLING */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    font-family: 'Cardo', sans-serif;
+}
+.button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-#greeting-container {
-  margin-top: 20px;
+/* NAVIGATION BAR STYLING */
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    font-family: 'Oswald', serif;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .logo a{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.navbar .menu li a{
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+li a:hover{
+    background-color: lightgrey;
+}
+
+/* HOME SECTION */
+.home{
+    display: flex;
+    text-align: justify;
+    color: white;
+    font-family: cormorant garamont;
+    margin-top: 10px;
+    font-family: 'Cardo', sans-serif;
+
+}
+.home .content .max-width{
+    margin: auto 0 auto 40px;
+    align-items: center;
+    font-family: 'Cardo', serif;
+}
+
+.home .content .T1{
+    font-size: 26px;
+    color: white;
+    font-family: 'Cardo', serif;
+    font-style: bold;
+}
+img{    
+    border-radius: 30px;
+    align-items: center;
+}
+
+.projects{
+    font-size: 26px;
+    font-family: 'Cardo', serif;
+    color: white;
+}
+
+.gallery{
+    font-size: 26px;
+    font-family: 'Cardo', serif;
+    color: white;
+}
+
+.contact{
+    font-size: 26px;
+    font-family: 'Cardo', serif;
+    color: white;
+}
+
+/* SLIDESHOW SECTION */
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  font-size: 26px;
+  font-family: 'Cardo', serif;
+  align-items: center;
+  color: white;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+h3{
+    margin: center;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+}
+.button{
+    background-color: lightgreen;
+}
+
+/* INTERESTING FACTS SECTION */
+.fact .fact-container{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Cardo', serif;
+    color: white;
+}
+.fact h3{
+    margin-top: auto;
+    margin: center;
+    text-align: center;
+}
+.fact .button{
+    background-color: lightgreen;
+}
+.fact .button{
+    background-color: lightgreen;
+}
+
+/* Map section of website */
+#map{
+    border: thin solid white;
+    height: 500px;
+    width: 500px;
+}
+.lib h3{
+    margin-top: auto;
+    margin: center;
+    text-align: center;
+    color: white;
 }
